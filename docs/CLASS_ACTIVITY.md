@@ -117,8 +117,6 @@ uv run main.py read ping.pkt --hexdump
 
 ## Wrap-up Discussion (5 min)
 
-Be ready to share with the class:
-
 1. What surprised you about building packets byte-by-byte with `struct`? How does this compare to using a high-level library?
 
 2. The `send` command uses a raw socket (`socket.IPPROTO_RAW`). What does this allow you to do with the source IP address, and why is that a concern?
